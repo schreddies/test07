@@ -1,0 +1,9 @@
+version: "3"
+rules:
+  - id: poc-rule
+    name: poc
+    condition: 'raw_data = "poc-rule"
+    emit: 
+      message: "Rule poc success"
+      finding_info:
+        title: "poc rule"  
